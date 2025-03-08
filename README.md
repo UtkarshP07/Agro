@@ -1,7 +1,7 @@
 # Agro B2B Marketplace
 
 ## Overview
-Agro B2B Marketplace is an innovative platform that connects farmers directly with consumers, retailers, and businesses. It also facilitates contract farming agreements by enabling seamless transactions, secure negotiations, and transparent contract management.
+Agro B2B Marketplace is an innovative platform that connects farmers directly with consumers, retailers, and businesses. It also facilitates contract farming agreements by enabling seamless transactions, secure negotiations, and transparent contract management. Additionally, the platform leverages Machine Learning (ML) to predict future crop trends and uses location-based searches to help farmers find the closest partners efficiently.
 
 ## Features
 - **Farmer-to-Consumer (F2C) Sales:** Farmers can list their produce and sell directly to consumers.
@@ -11,14 +11,18 @@ Agro B2B Marketplace is an innovative platform that connects farmers directly wi
 - **Real-time Price Negotiation:** Buyers and sellers can negotiate prices within the platform.
 - **Logistics Integration:** Facilitates transportation and delivery solutions.
 - **Quality Assurance:** Provides mechanisms for product quality verification.
+- **ML-based Future Crop Trends Prediction:** Analyzes past data to forecast crop demand and pricing trends.
+- **Location-Based Partner Matching:** Helps farmers connect with nearby buyers, retailers, and businesses for efficient collaboration.
 
 ## Tech Stack
 - **Frontend:** React.js (for user-friendly UI/UX)
-- **Backend:** Django (for API and business logic)
+- **Backend:** Node.js & Express.js (for API and business logic)
 - **Database:** MongoDB/PostgreSQL (for storing user data, transactions, and contracts)
 - **Authentication:** JWT-based secure login system
 - **Payment Gateway:** Razorpay/Stripe integration
 - **Cloud Storage:** AWS S3 for storing images and documents
+- **Machine Learning:** Python (Scikit-learn, TensorFlow) for predictive analytics
+- **Geolocation Services:** Google Maps API / OpenStreetMap for location-based searches
 
 ## Installation & Setup
 1. **Clone the Repository:**  
@@ -55,6 +59,8 @@ Agro B2B Marketplace is an innovative platform that connects farmers directly wi
 - **Order Management:** `/api/orders`
 - **Contract Farming:** `/api/contracts`
 - **Payment Processing:** `/api/payments`
+- **ML Predictions:** `/api/predictions`
+- **Location-based Search:** `/api/location`
 
 ## Contribution Guidelines
 1. Fork the repository and create a new branch.
