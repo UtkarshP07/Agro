@@ -23,7 +23,7 @@ Agro B2B Marketplace is an innovative platform that connects farmers directly wi
 ## Installation & Setup
 1. **Clone the Repository:**  
    ```sh
-   git clone https://github.com/yourusername/agro.git
+   git clone https://github.com/UtkarshP07/agro.git
    cd agro
    ```
 2. **Install Dependencies:**  
