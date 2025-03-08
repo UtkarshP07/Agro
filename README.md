@@ -14,7 +14,7 @@ Agro B2B Marketplace is an innovative platform that connects farmers directly wi
 
 ## Tech Stack
 - **Frontend:** React.js (for user-friendly UI/UX)
-- **Backend:** Node.js & Express.js (for API and business logic)
+- **Backend:** Django (for API and business logic)
 - **Database:** MongoDB/PostgreSQL (for storing user data, transactions, and contracts)
 - **Authentication:** JWT-based secure login system
 - **Payment Gateway:** Razorpay/Stripe integration
